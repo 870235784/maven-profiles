@@ -54,8 +54,8 @@
             <!-- 本地环境 -->
             <id>dev</id>
             <properties>
-                <username>dev</username>
-                <password>dev</password>
+                <test.username>dev</test.username>
+                <test.password>dev</test.password>
             </properties> 
             <!-- 默认激活本环境 -->
             <activation>
@@ -66,16 +66,16 @@
             <!-- 测试环境 -->
             <id>test</id>
             <properties>
-                <username>test</username>
-                <password>test</password>
+                <test.username>test</test.username>
+                <test.password>test</test.password>
             </properties>
         </profile>
         <profile>
             <!-- 生产环境 -->
             <id>pro</id>
             <properties>
-                <username>pro</username>
-                <password>pro</password>
+                <test.username>pro</test.username>
+                <test.password>pro</test.password>
             </properties>
         </profile>
     </profiles>

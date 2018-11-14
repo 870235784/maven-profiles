@@ -16,8 +16,10 @@
 	<context:property-placeholder location="classpath:properties-config/*.properties"/>
 	
 	<bean class="com.tca.beans.Student">
-		<property name="username" value="${username}"/>
-		<property name="password" value="${password}"/>
+		<property name="username" value="${test.username}"/>
+		<property name="password" value="${test.password}"/>
 	</bean>
+	
+	<bean class="com.tca.beans.Teacher"/>
 	
 </beans>
